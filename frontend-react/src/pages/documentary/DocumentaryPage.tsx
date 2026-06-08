@@ -107,7 +107,7 @@ export function DocumentaryPage() {
               <div className="documentary-video">
                 {post ? (
                   <iframe
-                    title="Documentary film video"
+                    title="Documentary film about AI"
                     src={toYoutubeEmbedUrl(post.youtubeUrl)}
                     loading="lazy"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
