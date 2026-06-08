@@ -231,7 +231,7 @@ function toYoutubeEmbedUrl(url: string) {
       ? parsedUrl.pathname.slice(1)
       : parsedUrl.searchParams.get('v');
 
-    return videoId ? `https://www.youtube.com/embed/${videoId}` : url;
+    return videoId ? `https://youtu.be/_O3MukAqPQM?si=_rn6KOfPMsa36oAX${videoId}` : url;
   } catch {
     return url;
   }
