@@ -158,7 +158,7 @@ i18n.use(initReactI18next).init({
           low: 'AI fooled you this time. Try again and sharpen your senses.',
         },
         documentary: {
-          title: 'Documentary Film',
+          title: 'Documentary Film About AI',
           pageTitle: 'Documentary Film | AI Cinema Lab',
           eyebrow: 'Featured post',
           description: 'A featured film post for discussing how AI changes perception, authorship, and cinema.',
